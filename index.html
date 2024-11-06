@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/output.css" />
+    <link rel="stylesheet" href="asset/node_modules/remixicon/fonts/remixicon.css" />
+  </head>
+  <body class="bg-slate-300">
+    <main class="flex items-center justify-center">
+      <section
+        class="mt-10 w-full lg:w-[60%] lg:h-[80%] flex flex-wrap items-center justify-evenly"
+      >
+        <!-- //////////////////////////////////////title bar ////////////////////////////////////// -->
+        <nav
+          class="w-[98%] lg:rounded-br-sm lg:rounded-bl-sm bg-slate-100 mb-2"
+        >
+          <ul
+            class="w-full h-full flex items-center lg:justify-between flex-wrap lg:flex-nowrap"
+          >
+            <li class="w-full lg:w-fit flex justify-center">
+              <figure>
+                <img src="asset/img/m2.png" alt="" />
+              </figure>
+            </li>
+            <li class="w-full lg:w-fit flex justify-center">
+              <h1 class="text-xl mb-2 lg:mb-0">
+                پرداخت اینترنتی به پرداخت ملت
+              </h1>
+            </li>
+            <li class="hidden lg:flex">
+              <figure>
+                <img src="asset/img/m1.png" alt="" />
+              </figure>
+            </li>
+          </ul>
+        </nav>
+        <div class="flex w-[98%] items-center justify-between">
+          <!-- ///////////////////////////////////////side bar //////////////////////////////// -->
+          <aside
+            class="hidden lg:flex w-[39%] lg:h-[400px] lg:rounded-sm lg:rounded-bl-3xl bg-slate-100"
+          >
+            <ul
+              class="rounded-bl-3xl w-full h-full flex flex-wrap *:w-full *:flex overflow-hidden"
+              dir="rtl"
+            >
+              <li class="h-[10%] bg-white">
+                <span
+                  class="rounded-bl-xl bg-slate-200 px-2 flex items-center justify-center"
+                  >اطلاعات پذیرنده</span
+                >
+              </li>
+              <li class="h-[35%]">
+                <figure
+                  class="w-full h-full flex items-center justify-center bg-slate-100"
+                >
+                  <img class="" src="asset/img/m3.png" alt="" />
+                </figure>
+              </li>
+              <li class="h-[10%] bg-white">
+                <div class="mr-1 text-slate-600">نام پذیرنده:</div>
+                <span class="mr-2"> پارسا قربانیان </span>
+              </li>
+              <li class="h-[10%] bg-white">
+                <div class="mr-1 text-slate-600">شماره پذیرنده:</div>
+                <span class="mr-2"> 9384759 </span>
+              </li>
+              <li class="h-[10%] bg-white">
+                <div class="mr-1 text-slate-600">شماره ترمینال:</div>
+                <span class="mr-2"> 84958675 </span>
+              </li>
+              <li class="h-[10%] bg-white">
+                <div class="mr-1 text-slate-600">ادرس وبسایت:</div>
+                <span class="text-xs w-[50%] flex mr-2 text-blue-600 font-bold">
+                  https://trainingsitedesign.ir /learn-web-design/</span
+                >
+              </li>
+              <li
+                class="h-[15%] bg-white rounded-bl-3xl justify-between items-center px-2 border-t border-t-black"
+              >
+                <div class="text-green-500">مبلغ قابل پرداخت:</div>
+                <span class="text-green-500">99,000 ریال</span>
+              </li>
+            </ul>
+          </aside>
+          <!-- //////////////////////////////////////////////section///////////////////////////////////// -->
+          <section class="w-full lg:w-[60%] flex">
+            <ul
+              class="bg-slate-200 w-full lg:h-[400px] *:p-1 *:w-full flex flex-wrap *:flex *:flex-wrap *:lg:flex-nowrap *:my-1"
+            >
+              <li class="justify-center items-statr lg:justify-between">
+                <div class="">
+                  <span class="time px-3"></span> :زمان باقی مانده
+                </div>
+                <p class="hidden lg:inline rounded-bl-xl bg-slate-300 p-1">
+                  اطلاعات کارت
+                </p>
+              </li>
+              <li class="lg:justify-between">
+                <input
+                  class="inp1 rounded-full bg-slate-50 h-[25px] lg:h-[30px] w-[250px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="6037-9962-5524-2335"
+                  autofocus
+                />
+                <p class="w-full lg:w-fit text-right">شماره کارت</p>
+              </li>
+              <li class="lg:justify-between">
+                <input
+                  class="inp2 rounded-full bg-slate-50 h-[25px] lg:h-[30px] w-[250px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="3456"
+                />
+                <p class="w-full lg:w-fit text-right">
+                  (cvv2)شماره شناسایی دوم
+                </p>
+              </li>
+              <li class="lg:justify-between">
+                <input
+                  class="inp3 rounded-full mr-1 bg-slate-50 h-[25px] lg:h-[30px] w-[80px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="07"
+                />
+                <input
+                  class="inp4 rounded-full ml-1 bg-slate-50 h-[25px] lg:h-[30px] w-[80px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="02"
+                />
+                <p class="w-full lg:w-fit text-right">تاریخ انقضای کارت</p>
+              </li>
+              <li class="lg:justify-between">
+                <span
+                  class="cursor-pointer flex justify-center items-center ml-2"
+                  ><i
+                    class="chang_c_code ri-reset-right-line text-xl text-blue-600"
+                  ></i
+                ></span>
+                <div
+                  class="code mx-1 bg-slate-300 px-4 flex items-center justify-center rounded-md w-[80px]"
+                  contenteditable="false"
+                ></div>
+                <input
+                  class="inp5 rounded-full bg-slate-50 h-[25px] lg:h-[30px] w-[200px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="کد امنیتی را وارد کنید"
+                />
+                <p class="w-full lg:w-fit text-right">کد امنیتی</p>
+              </li>
+              <li class="lg:justify-between">
+                <input
+                  class="inp6 rounded-full bg-slate-50 h-[25px] lg:h-[30px] w-[200px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="رمز دوم کارت"
+                />
+                <p class="w-full lg:w-fit text-right">رمز اینترنتی کارت</p>
+              </li>
+              <li class="lg:justify-between">
+                <input
+                  class="inp7 rounded-full bg-slate-50 h-[25px] lg:h-[30px] w-[300px] px-4 text-center border-2 border-slate-300 focus:outline-none hover:shadow-hover-blue transition duration-200"
+                  type="text"
+                  placeholder="(اختیاری) پست الکترونیکی "
+                />
+                <p class="w-full lg:w-fit text-right">ایمیل</p>
+              </li>
+              <li class="justify-center">
+                <button
+                  class="btn_n flex justify-center items-center rounded-full bg-gradient-to-r from-yellow-500 to-yellow-400 px-3 mx-1 text-md hover:scale-95 transition duration-100"
+                >
+                  انصراف
+                </button>
+                <button
+                  class="btn_y flex justify-center items-center rounded-full bg-gradient-to-r font-sans from-green-600 to-green-400 px-9 mx-1 hover:scale-95 transition duration-100"
+                >
+                  پرداخت
+                </button>
+              </li>
+              <li class="lg:hidden justify-between text-green-600">
+                <p class="">
+                  ریال <span dir="rtl" class="text-green-600">99,000</span>
+                </p>
+                <span class=""> :مبلغ قابل پرداخت </span>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <!-- //////////////////////////////footer////////////////////////// -->
+        <div class="w-full lg:w-[200px] h-[60px] mt-10">
+          <ul
+            class="w-full h-full flex justify-evenly items-center *:w-[40px] *:h-[40px] *:rounded-md *:bg-slate-500 *:text-white"
+          >
+            <li>
+              <a
+                class="flex w-full h-full justify-center items-center text-white text-xl hover:bg-slate-400 rounded-md duration-200"
+                href="https://www.linkedin.com/in/arian-afsharian-7a3903156"
+                target="_blank"
+                ><i class="ri-linkedin-fill"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="flex w-full h-full justify-center items-center text-white text-xl hover:bg-slate-400 rounded-md duration-200"
+                href="https://github.com/ari420"
+                target="_blank"
+                ><i class="ri-github-line"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="flex w-full h-full justify-center items-center text-white text-xl hover:bg-slate-400 rounded-md duration-200"
+                href="https://www.instagram.com/component__shop?igsh=enRla3lxa3dzYXho"
+                target="_blank"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="flex w-full h-full justify-center items-center text-white text-xl hover:bg-slate-400 rounded-md duration-200"
+                href="https://www.facebook.com/arian.rust.52?mibextid=ZbWKwL"
+                target="_blank"
+                ><i class="ri-facebook-fill"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- //////////////////////js conection//////////////////////////// -->
+    <script src="asset/js/main.js"></script>
+  </body>
+</html>
